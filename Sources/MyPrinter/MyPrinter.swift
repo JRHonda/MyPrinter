@@ -1,3 +1,7 @@
-struct MyPrinter {
-    var text = "Hello, World!"
+public class MyPrinter {
+    init() {}
+    
+    public func output(value: String) {
+        print(value)
+    }
 }
